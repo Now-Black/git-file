@@ -82,11 +82,8 @@ cd Ele-java
 - 启动 Redis 服务
 - 修改 `application.properties` 中的 Redis 配置
 
-4. **邮件服务配置**
-- 配置 QQ 邮箱 SMTP 服务
-- 修改 `application.properties` 中的邮件配置
+4. **构建运行**
 
-5. **构建运行**
 ```bash
 mvn clean package
 java -jar target/easypan-1.0.jar
@@ -157,24 +154,6 @@ project.folder=e:/JavaProject/Ele-java-project/webapp/
 - 使用 Logback 进行日志管理
 - 支持不同级别的日志输出
 - 日志文件按日期分割存储
-
-## 🤝 贡献指南
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
-
-## 📄 开源协议
-
-本项目采用 MIT 协议，详情请参阅 [LICENSE](LICENSE) 文件。
-
-## 📞 联系方式
-
-- **项目维护者**：[您的姓名]
-- **邮箱**：[您的邮箱]
-- **项目地址**：[GitHub 仓库链接]
 
 ---
 
